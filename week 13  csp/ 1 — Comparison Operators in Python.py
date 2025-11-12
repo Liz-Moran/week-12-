@@ -22,14 +22,22 @@ print(a <= b)   # True
 
 
 #predict the output of the following comparisons:
-10 > 5
-7 == 2 * 3 + 1
-8 != 8
-4 <= 2 + 2
+10 > 5 #True
+7 == 2 * 3 + 1 #True
+8 != 8 #False
+4 <= 2 + 2 #True
 
 # Write 3 examples that result in True and 3 that result in False.
-
+c = 6
+d = 7
+print(c<d)
+print(c!=d)
+print(c<=d)
+print(c==d)
+print(c>=d)
+print(c>d)
 # Create a simple grade-checking condition:
+
 
 # practice problem :
 # where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
