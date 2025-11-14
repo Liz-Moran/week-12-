@@ -11,30 +11,77 @@
 #lists are created using squre brackets[]
 
 #Instead of making a bunch of seperate variables, you can store them in a list to make our job easier when you need to manage a bunch of items 
-my_list1=[1, 2, 3, 4, 5,]
-print(my_list1) 
-print(type(my_list1))
-print(my_list1[0]) 
-print(my_list1[1:4])
-print(my_list1[0:])
-print(my_list1[0:-1])
+# my_list1=[1, 2, 3, 4, 5,]
+# print(my_list1) 
+# print(type(my_list1))
+# print(my_list1[0]) 
+# print(my_list1[1:4])
+# print(my_list1[0:])
+# print(my_list1[0:-1])
 
-my_list1.append(6)
-print(my_list1)
+# my_list1.append(6)
+# print(my_list1)
 
-my_list1.append(7)
-print(my_list1)
-my_list1.append(8)
-print(my_list1)
+# my_list1.append(7)
+# print(my_list1)
+# my_list1.append(8)
+# print(my_list1)
 
-my_list1.extend([10, 11, 12, 13, 14])
-print(my_list1)
+# my_list1.extend([10, 11, 12, 13, 14])
+# print(my_list1)
 
-my_list1.extend(list(range(15, 515)))
-print(my_list1)
+# my_list1.extend(list(range(15, 515)))
+# print(my_list1)
 
-my_list1.extend(list(range(515,1115 )))
-print(my_list1)
+# my_list1.extend(list(range(515,1115 )))
+# print(my_list1)
+
+
+new_list=['a','b','c']
+print(new_list)
+new_list.append('d')
+print(new_list)
+removed_item=new_list.pop()
+print(removed_item)
+print(new_list)
+remove_second_item=new_list.pop(1)
+print(remove_second_item)
+print(new_list)
+
+
+
+numbers=[4, 2, 5, 1, 3]
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+
+numbers.insert(2, 10)
+print(numbers)
+
+third_list= [7, 8, 9]
+third_list[0]=6
+print(third_list)
+third_list[-1]=10
+print(third_list)
+
+import random
+random_list=random.sample(range(1, 1000), 100)
+print(random_list)
+print(sorted(random_list))
+sorted_list = sorted(random_list)
+print(sorted_list)
+
+sorted_list.reverse()
+
+#summary of list functions
+# .append(item) - adds an item to the end of the list
+# .pop(index) - removes and returns the items at the specificed index
+# .sort() - sorts the list in ascending order
+# .reverse() - reveres the order of the list
+
+
+
 # Examples:
 
 my_list = ['apple', 'banana', 'cherry']
