@@ -9,7 +9,7 @@ print(set1)
 
 set2={"apple", "banana", "cherry", "cherry"}
 print(set2)
-
+#Tuples can't be changed after creation; making it useful for storing data that can't be modified.
 #tuples examples:
 tuple1 = (1, 2, 3, 4, 5)
 print(tuple1)
